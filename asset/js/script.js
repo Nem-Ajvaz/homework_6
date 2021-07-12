@@ -62,7 +62,7 @@ function searchCity() {
   renderHistory(cities);
 
   fetchURL =
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
     cityName +
     "&units=metric&APPID=1d19c017b53989918559e63da6116e5b";
 
