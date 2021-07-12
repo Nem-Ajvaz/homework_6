@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main section:first-child {
+  border-bottom: darkgrey solid 1px;
+}
+
+main section div p {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#currentSearch {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+header h1 {
+  background: linear-gradient(to right, blue, midnightblue);
+  padding: 5px 0px;
+  color: white;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+}
+#search {
+  display: flex;
+  flex-direction: column;
+}
+#searchBox {
+  font-size: 25px;
+  border-bottom: lightslategrey solid 2px;
+}
+
+#inputSearch,
+#searchBtn {
+  width: 350px;
+  height: 30px;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+#searchBtn {
+  background-color: lightskyblue;
+  border-radius: 3px;
+}
+
+#output {
+  flex: 1 0 auto;
+}
+
+#presentForecast,
+#futureForecast {
+  border: solid black 1px;
+  margin: 10px 10px;
+  border-radius: 1%;
+  height: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
+#futureForecast {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.searchOuputTitle {
+  font-size: 45px;
+  margin: 5px 0px 20px 10px;
+  font-family: monospace;
+}
+
+.tempClass,
+.windClass,
+.humidityClass,
+.uvClass {
+  margin: 10px 0px 15px 5px;
+  text-align: left;
+}
+
+.nPR {
+  background-color: lightgreen;
+}
+.pR {
+  background-color: yellow;
+}
+.pE {
+  background-color: orange;
+}
+.nS {
+  background-color: red;
+}
+.stayIndoors {
+  background-color: orchid;
+}
+.fiveDayForecast {
+  font-size: 30px;
+}
+
+.forecastDiv {
+  background-color: midnightblue;
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dateClass,
+.futureTemp,
+.futureWind,
+.futureHumidity {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.historyItem {
+  cursor: pointer;
+  margin: 5px 10px;
+  background: lightskyblue;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 3%;
+}
+
+.shown {
+  margin-left: 15px;
+}
+
+.itemImage {
+  width: 30px;
+}
