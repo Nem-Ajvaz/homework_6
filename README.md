@@ -36,7 +36,7 @@ Upon entering and saving the data, a key pair appeared in the local storage as s
 ![Populated Local Storage Test 1](/asset/images/screenshots/testOneData.png)
 
 Upon entering and saving new data, a key pair appeared in the local storage and shown below the previously searched city
-![Removing text from Local Storage](/asset/images/screenshots/testOneDataEmpty.png)
+![Adding a new key pair to local storage](/asset/images/screenshots/testTwoData.png)
 
 ## Issues faced
 
